@@ -88,7 +88,7 @@ You can then use a Source Change Visibility command to make the trail source vis
 
 ![image](https://github.com/user-attachments/assets/c4ca5edb-f6d1-4f7b-8bf6-78062956db9c)
 
-Here we see colour 4-6 are not used, so I've zeroed the colour and the threshold values.
+Here we see colours 5 and 6 are not used, so I've zeroed the colour and the threshold values.
 
 If you have any questions, I use this tech on my own Twitch stream https://twitch.tv/omnituens and I'm happy to demo the effects and help you out, assuming I'm not in the middle of something! I'm also on BlueSky here: https://bsky.app/profile/omnituens.bsky.social
 If you do use this effect and are asked how you did it, I would be grateful if you pointed them back here, or to my socials. I actually don't mind payment in exposure for this, and if I can get more eyes on Exeldro and FiniteSingularity's work, all the better! I am open to commision work if you are looking for something in particular.
