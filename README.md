@@ -71,25 +71,6 @@ And Non-Binary:
 
 ![image](https://github.com/user-attachments/assets/19181e12-d7bb-4e49-8525-8caa2e91c91a)
 
-## External Controls
-If you have some kind of stream control software (for example, SAMMI) that can change the visibility and setup of filters on the fly, you can just have 1 trail source and reconfigure it. This example is in SAMMI (https://sammi.solutions/)
-
-I won't go over how to set up or use SAMMI (they have great documentaion over there on how to do that) so this example will make the assumption you know how to set up and connect SAMMI to OBS, configure a deck and a button, and how to use the visual scripting language.
-
-Using a "Filter Change Settings" command, you can do something like this: 
-
-![image](https://github.com/user-attachments/assets/46de93ac-3397-4771-acbd-9c8431787700)
-
-Note that SAMMI uses the **AABBGGRR** hexidecimal format for colours, as that is what OBS uses under the hood. So the first colour, which is Red, is represented in AABBGGRR as FF(Alpha) 00(Blue) 00(Green) FF(Red), making 0xFF0000FF.
-
-You can then use a Source Change Visibility command to make the trail source visible for however long you want before hiding it again.
-
-**If you then have another button to set the trail with fewer colours, remember to zero out the colour thresholds that are unneeded.**
-
-![image](https://github.com/user-attachments/assets/c4ca5edb-f6d1-4f7b-8bf6-78062956db9c)
-
-Here we see colours 5 and 6 are not used, so I've zeroed the colour and the threshold values.
-
 If you have any questions, I use this tech on my own Twitch stream https://twitch.tv/omnituens and I'm happy to demo the effects and help you out, assuming I'm not in the middle of something! I'm also on BlueSky here: https://bsky.app/profile/omnituens.bsky.social
 If you do use this effect and are asked how you did it, I would be grateful if you pointed them back here, or to my socials. I actually don't mind payment in exposure for this, and if I can get more eyes on Exeldro and FiniteSingularity's work, all the better! I am open to commision work if you are looking for something in particular.
 
